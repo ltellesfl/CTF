@@ -7,3 +7,14 @@
     3 - Olhar os cookies
     4 - Olhar as requisições
     5 - 
+
+
+### Programas úteis
+
+  burp
+  sqlmap
+  dirbuster
+  hydra
+  wireshark
+  findmyhash
+  nikto

